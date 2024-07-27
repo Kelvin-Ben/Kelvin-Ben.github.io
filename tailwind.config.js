@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       barlow: ["Barlow Condensed"],
+      bebas: ['Bebas Neue'],
       rubik: ["Rubik"],
       roboto: ["Roboto"],
       bellefair: ["Bellefair"],
