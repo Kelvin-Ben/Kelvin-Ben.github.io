@@ -17,8 +17,8 @@ const Footer = () => {
               <p className={styles.email}>kevoben14@gmail.com</p>
               <p className={styles.phone}>+254 791 730 991</p>
             </div>
-          <img src={logo} alt="kelvin-logo" className={styles.logo} />
-        </div>
+            <img src={logo} alt="kelvin-logo" className={styles.logo} />
+          </div>
         </div>
         <p className={styles.rights}>© 2024 <a href='https://github.com/Kelvin-Ben' target='_blank' className={styles.rights}>Kelvin Benjamin.</a> All rights reserved.</p>
       </div>
