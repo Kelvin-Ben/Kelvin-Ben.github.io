@@ -1,0 +1,14 @@
+.about_intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro {
+  width: 40%;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    width: 70%;
+  }
+}

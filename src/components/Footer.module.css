@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
 }
@@ -25,7 +25,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
 }
 .rights {
   font-size: 1.9rem;
@@ -43,7 +42,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* border: 1px solid rebeccapurple; */
 }
 .contact_details {
   width: auto;
@@ -55,6 +53,14 @@
   height: 100%;
 }
 /* Mobile screen */
+@media screen and (min-width: 750px) {
+  .footer_nav {
+    width: 35%;
+  }
+  /* .contact_details {
+    justify-content: flex-end;
+  } */
+}
 @media screen and (max-width: 768px) {
   .footer {
     display: flex;
@@ -78,5 +84,7 @@
   }
   .contact_details {
     width: 60%;
+    /* display: flex;
+    align-items: end; */
   }
 }

@@ -1,11 +1,16 @@
-import Hero from "../Hero/Hero";
+import { About } from "../../components/About";
+import { Skills } from "../../components/Skills";
+import styles from './Home.module.css'
 
 
 const Home = () => {
   return (
-    <>
-    <h1>this is the home page</h1>
-    </>
+    <div className={styles.about_intro}>
+      <div className={styles.intro}>
+        <About />
+        <Skills />
+      </div>
+    </div>
   );
 };
 
