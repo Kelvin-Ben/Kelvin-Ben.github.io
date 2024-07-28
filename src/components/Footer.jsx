@@ -20,7 +20,7 @@ const Footer = () => {
             <img src={logo} alt="kelvin-logo" className={styles.logo} />
           </div>
         </div>
-        <p className={styles.rights}>© 2024 <a href='https://github.com/Kelvin-Ben' target='_blank' className={styles.rights}>Kelvin Benjamin.</a> All rights reserved.</p>
+        <p className={styles.rights}>© 2024 <a href='https://github.com/Kelvin-Ben' target='_blank' className={styles.rights}><span className='text-inherit text-[1.9rem] italic hover:text-customWhite'>Kelvin Benjamin.</span></a> All rights reserved.</p>
       </div>
   )
 }
