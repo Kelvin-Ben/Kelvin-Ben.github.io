@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 40rem;
+  /* border: 1px solid red; */
+}
+.details {
+  display: flex;
+  width: auto;
+  gap: 5%;
+}
+
+.label {
+  font-size: 2rem;
+  /* border: 1px solid red; */
+  width: auto;
+
+}
+#email, #name {
+  font-size: 1.5rem;
+  width: 100%;
+  padding-left: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+#email:focus, #name:focus, #message:focus {
+  outline: none;
+}
+#message {
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+  box-sizing: border-box;
+  line-height: 1.5rem;
+  /* resize: none; */
+}
+
+/* media query for the form */
+@media screen and (max-width: 768px) {
+  .details {
+    width: 100%;
+    flex-direction: column;
+  }
+  #name, #email {
+    padding: 0;
+  }
+}
