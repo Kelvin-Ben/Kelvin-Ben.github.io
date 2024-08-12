@@ -17,7 +17,7 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-customWhite">
+    <div className="w-auto h-screen bg-customWhite sm:w-[100%]">
       <RouterProvider router={router}/>
     </div>
   );
