@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 5rem;
+  height: 25%;
+  padding: 2rem 3rem;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  min-width: 10rem;
+  height: 100%;
+}
+.navList {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  color: antiquewhite;
+}
+.hamburger {
+  display: none;
+}
+.close {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navList {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+
+}

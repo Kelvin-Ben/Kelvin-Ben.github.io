@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       barlow: ["Barlow Condensed"],
+      bebas: ['Bebas Neue'],
       rubik: ["Rubik"],
       roboto: ["Roboto"],
       bellefair: ["Bellefair"],
@@ -22,7 +23,7 @@ module.exports = {
         customWhite: "#fff",
         customGray: "#a0a1a8",
         customBlue: "#d0d6f9",
-        customDark: "#6c757d",
+        customDark: "#000000",
       },
       transformOrigin: {
         "top-left": "-50% -50%",
