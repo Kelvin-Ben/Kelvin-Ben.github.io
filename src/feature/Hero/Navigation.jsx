@@ -14,7 +14,6 @@ const Navigation = () => {
         <NavLink to='/projects' className={({isActive}) => isActive ? 'activeLink' : 'inActiveLink'}>PROJECTS</NavLink>
         <NavLink to='/about' className={({isActive}) => isActive ? 'activeLink' : 'inActiveLink'}>ABOUT</NavLink>
         <NavLink to='/contact' className={({isActive}) => isActive ? 'activeLink' : 'inActiveLink'}>CONTACT</NavLink>
-        {/* <NavLink to='/' className={({isActive}) => isActive ? 'activeLink' : 'inActiveLink'}></NavLink> */}
       </ul>
       <img src={hamburger} alt="hamburger" className={styles.hamburger} />
       <img src={close} alt="icon-close" className={styles.close} />
